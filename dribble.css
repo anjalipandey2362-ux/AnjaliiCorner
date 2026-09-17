@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: chartreuse;
+    background-attachment: fixed;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+nav h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+nav a {
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
+}
+
+section {
+    background-color: brown;
+    padding: 20px 100px;
+    width: 100%;
+    height: 500px;
+}
+
+/* BOTH ROWS */
+.class1,
+.class2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* HEADING */
+.class1 h1,
+.class2 h1 {
+    color: black;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* VIDEO / CONTENT BOX */
+.class1 .video,
+.class2 .video {
+    width: 300px;
+    height: 170px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+/* PARAGRAPH */
+.class2 p {
+    font-size: 20px;
+}
